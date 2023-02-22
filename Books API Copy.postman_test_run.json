@@ -1,0 +1,220 @@
+{
+	"id": "1bc097b2-123a-4b23-9dbb-94350e3685ae",
+	"name": "Books API Copy",
+	"timestamp": "2023-02-22T17:37:28.144Z",
+	"collection_id": "25403724-ea3655fe-eb48-41e7-85eb-4b42bcb89d78",
+	"folder_id": 0,
+	"environment_id": "0",
+	"totalPass": 0,
+	"delay": 0,
+	"persist": true,
+	"status": "finished",
+	"startedAt": "2023-02-22T17:37:25.373Z",
+	"totalFail": 0,
+	"results": [
+		{
+			"id": "57e6adbf-c166-4106-acd0-cf394984eb02",
+			"name": "/status",
+			"url": "https://simple-books-api.glitch.me/status",
+			"time": 218,
+			"responseCode": {
+				"code": 200,
+				"name": "OK"
+			},
+			"tests": {},
+			"testPassFailCounts": {},
+			"times": [
+				218
+			],
+			"allTests": [
+				{}
+			]
+		},
+		{
+			"id": "efe06148-cd50-4bcc-9be4-d6e10483c763",
+			"name": "/books",
+			"url": "https://simple-books-api.glitch.me/books?type=fiction",
+			"time": 140,
+			"responseCode": {
+				"code": 200,
+				"name": "OK"
+			},
+			"tests": {},
+			"testPassFailCounts": {},
+			"times": [
+				140
+			],
+			"allTests": [
+				{}
+			]
+		},
+		{
+			"id": "8e52b022-e180-4f97-88ad-71ea958215e2",
+			"name": "/books/bookId",
+			"url": "https://simple-books-api.glitch.me/books/6",
+			"time": 134,
+			"responseCode": {
+				"code": 200,
+				"name": "OK"
+			},
+			"tests": {},
+			"testPassFailCounts": {},
+			"times": [
+				134
+			],
+			"allTests": [
+				{}
+			]
+		},
+		{
+			"id": "2aaf6318-37b2-41d7-8943-4044d4f2c5b1",
+			"name": "/api-clients",
+			"url": "https://simple-books-api.glitch.me/api-clients/",
+			"time": 155,
+			"responseCode": {
+				"code": 400,
+				"name": "Bad Request"
+			},
+			"tests": {},
+			"testPassFailCounts": {},
+			"times": [
+				155
+			],
+			"allTests": [
+				{}
+			]
+		},
+		{
+			"id": "53a949f6-43b5-4044-9485-aabed4e8b5f0",
+			"name": "/orders",
+			"url": "https://simple-books-api.glitch.me/orders",
+			"time": 150,
+			"responseCode": {
+				"code": 401,
+				"name": "Unauthorized"
+			},
+			"tests": {},
+			"testPassFailCounts": {},
+			"times": [
+				150
+			],
+			"allTests": [
+				{}
+			]
+		},
+		{
+			"id": "881851af-0504-4ae1-9cb5-194739936006",
+			"name": "/all orders",
+			"url": "https://simple-books-api.glitch.me/orders",
+			"time": 137,
+			"responseCode": {
+				"code": 401,
+				"name": "Unauthorized"
+			},
+			"tests": {},
+			"testPassFailCounts": {},
+			"times": [
+				137
+			],
+			"allTests": [
+				{}
+			]
+		},
+		{
+			"id": "854bf880-5c83-402e-9dd1-751019fb1fa6",
+			"name": "/an order",
+			"url": "https://simple-books-api.glitch.me/orders/lLNx-LrnX5isS99HrE9VL",
+			"time": 140,
+			"responseCode": {
+				"code": 401,
+				"name": "Unauthorized"
+			},
+			"tests": {},
+			"testPassFailCounts": {},
+			"times": [
+				140
+			],
+			"allTests": [
+				{}
+			]
+		},
+		{
+			"id": "cf3e8161-22d7-469b-ba6d-fcaacfddd0dd",
+			"name": "/update an order",
+			"url": "https://simple-books-api.glitch.me/orders/lLNx-LrnX5isS99HrE9VL",
+			"time": 249,
+			"responseCode": {
+				"code": 401,
+				"name": "Unauthorized"
+			},
+			"tests": {},
+			"testPassFailCounts": {},
+			"times": [
+				249
+			],
+			"allTests": [
+				{}
+			]
+		},
+		{
+			"id": "a520160f-08a0-4329-906f-4815c2c3b227",
+			"name": "/delete an order",
+			"url": "https://simple-books-api.glitch.me/orders/ALIjT9ZkfbEXfrsa8qy9m",
+			"time": 147,
+			"responseCode": {
+				"code": 401,
+				"name": "Unauthorized"
+			},
+			"tests": {},
+			"testPassFailCounts": {},
+			"times": [
+				147
+			],
+			"allTests": [
+				{}
+			]
+		}
+	],
+	"count": 1,
+	"totalTime": 1470,
+	"collection": {
+		"requests": [
+			{
+				"id": "57e6adbf-c166-4106-acd0-cf394984eb02",
+				"method": "GET"
+			},
+			{
+				"id": "efe06148-cd50-4bcc-9be4-d6e10483c763",
+				"method": "GET"
+			},
+			{
+				"id": "8e52b022-e180-4f97-88ad-71ea958215e2",
+				"method": "GET"
+			},
+			{
+				"id": "2aaf6318-37b2-41d7-8943-4044d4f2c5b1",
+				"method": "POST"
+			},
+			{
+				"id": "53a949f6-43b5-4044-9485-aabed4e8b5f0",
+				"method": "POST"
+			},
+			{
+				"id": "881851af-0504-4ae1-9cb5-194739936006",
+				"method": "GET"
+			},
+			{
+				"id": "854bf880-5c83-402e-9dd1-751019fb1fa6",
+				"method": "GET"
+			},
+			{
+				"id": "cf3e8161-22d7-469b-ba6d-fcaacfddd0dd",
+				"method": "PATCH"
+			},
+			{
+				"id": "a520160f-08a0-4329-906f-4815c2c3b227",
+				"method": "DELETE"
+			}
+		]
+	}
+}
